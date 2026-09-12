@@ -1,0 +1,30 @@
+# --- R session files -------------------------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.Rhistory
+
+# --- R package / build artefacts -------------------------------------------
+.Rcheck/
+*.tar.gz
+*.Rcheck
+renv/library/
+renv/staging/
+packrat/lib*/
+
+# --- OS cruft --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor ----------------------------------------------------------------
+.vscode/
+.idea/
+*~
+*.swp
+
+# --- Office temp files -----------------------------------------------------
+~$*.xlsx
+~$*.docx
